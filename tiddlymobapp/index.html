@@ -9,19 +9,28 @@
 </head>
 <body>
 
-<div data-role="page">
+    <div data-role="page">
 
-    <div data-role="header">
-        <h1>TS Mobile</h1>
+        <div data-role="header" class="ui-header ui-bar-a" role="banner">
+            <h1 class="ui-title" role="heading" aria-level="1">TS Mobile</h1>
+        </div>
+
+        <div data-role="content" class="ui-body ui-body-a">
+            <form id="login-form" action="index.html" method="post">
+                <h4>Login</h4>
+                <input type="text" name="name" id="username" placeholder="Username" />
+                <input type="password" name="name" id="password" placeholder="Password" />
+                <button type="submit" id="login" data-theme="a">Login</button>
+            </form>
+        </div>
+
+        <div data-role="footer" data-id="footer" data-position="fixed">
+            <h4>Brought to you by TiddlySpace</h4>
+        </div>
+
     </div>
-
-    <div data-role="content">
-        <p>Coming Soon!</p>
-    </div>
-
-</div>
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
 </body>
 </html>
 </html>
