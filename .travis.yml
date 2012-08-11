@@ -1,4 +1,5 @@
 language: node_js
 node_js:
-  - 0.8
-script: "echo 'todo'"
+  - 0.7
+before_script: "make jslibs phantomjs"
+script: "make test"
