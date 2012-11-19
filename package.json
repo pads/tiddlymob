@@ -1,0 +1,22 @@
+{
+    "name":"tiddlymob",
+    "version":"0.0.1",
+    "description":"A mobile website for Tiddlyspace",
+    "main":"grunt.js",
+    "repository":{
+        "type":"git",
+        "url":"git://github.com/pads/tiddlymob.git"
+    },
+    "keywords":[
+        "Tiddlyspace",
+        "tiddlymob"
+    ],
+    "author": "Ben Paddock <pads@thisispads.me.uk>",
+    "license":"BSD",
+    "dependencies":{
+        "grunt-jasmine-runner":"0.5.x"
+    },
+    "scripts": {
+        "test": "grunt lint jasmine"
+    }
+}

@@ -12,10 +12,8 @@ pids
 logs
 results
 
+dist
 node_modules
 npm-debug.log
 
-phantomjs
-test/lib/jquery.js
-test/lib/console-runner.js
-test/lib/run_jasmine_test.coffee
+_SpecRunner.html
