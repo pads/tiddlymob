@@ -38,7 +38,14 @@ header.main img {
 }
 
 footer.main {
+    width: 100%;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 999999;
+}
+
+footer.main h2 {
     color: white;
     background-color: black;
     padding: 0.1em;
