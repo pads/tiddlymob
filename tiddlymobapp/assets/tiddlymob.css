@@ -5,32 +5,44 @@ body {
 
 header.main {
     background-color: #DCE7F1;
-    margin-bottom: 0.5em;
     padding: 0.5em;
+    position:fixed;
+    top: 0;
+    z-index:99998;
+    height: 5em;
+    width: 100%;
 }
 
 header.main h1 {
     color: #4C4A54;
     font-size: 2em;
-    float: right;
+    float: left;
 }
 
 header.main img {
     width: 48px;
     height: 48px;
+    float: right;
+    margin-right: 1em;
+}
+
+div.container {
+    margin: 7em 0.5em;
 }
 
 #login {
-    border: solid black 1px;
+    border: solid thin #000000;
     border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
     padding: 0.5em;
-    margin: 0.5em;
 }
 
 #login input {
     width: 97%;
-    margin-top: 0.5em;
-    padding: 0.5em;
+    margin: 0.5em 0;
+    padding-left: 0.5em;
+    height: 2em;
 }
 
 #login input[type=Submit] {
@@ -45,8 +57,15 @@ footer.main {
     z-index: 999999;
 }
 
+footer .wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 101%;
+    height: 1.7em;
+}
+
 footer.main h2 {
     color: white;
     background-color: black;
-    padding: 0.1em;
+    margin: 0;
 }

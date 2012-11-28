@@ -4,15 +4,19 @@
     <meta charset=utf-8/>
     <meta name=viewport content="width=device-width, initial-scale=1"/>
     <title>Tiddlyspace Mobile</title>
-    <link rel=stylesheet href=/bags/common/tiddlers/normalize.css />
-    <link rel=stylesheet href=/bags/tiddlymobapp_public/tiddlers/tiddlymob.css />
+    <!--<link rel=stylesheet href=/bags/common/tiddlers/normalize.css />-->
+    <!--<link rel=stylesheet href=/bags/tiddlymobapp_public/tiddlers/tiddlymob.css />-->
+    <link rel=stylesheet href=http://tiddlyspace.com/bags/common/tiddlers/normalize.css />
+    <link rel=stylesheet href=assets/tiddlymob.css />
 </head>
 <body>
     <header class=main>
         <h1>Tiddlyspace Mobile</h1>
-        <img src=/SiteIcon alt=logo />
+        <!--<img src=/SiteIcon alt=logo />-->
+        <img src=http://tiddlyspace.com/SiteIcon alt=logo />
     </header>
-    <section class=main>
+    <div class=container>
+
         <form id=login>
             <input type=text placeholder=username />
             <br>
@@ -20,9 +24,12 @@
             <br>
             <input type=submit value=Login />
         </form>
-    </section>
+
+    </div>
     <footer class=main>
-        <h2>&copy; 2012 Osmosoft</h2>
+        <div class=wrap>
+            <h2>&copy; 2012 Osmosoft</h2>
+        </div>
     </footer>
 </body>
 </html>
