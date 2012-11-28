@@ -1,71 +1,64 @@
-body {
-    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
-    font-size: 62.5%;
+.container {
+    padding-top: 0.8em;
 }
 
-header.main {
-    background-color: #DCE7F1;
-    padding: 0.5em;
-    position:fixed;
-    top: 0;
-    z-index:99998;
-    height: 5em;
-    width: 100%;
-}
-
-header.main h1 {
-    color: #4C4A54;
-    font-size: 2em;
-    float: left;
-}
-
-header.main img {
+#logo {
     width: 48px;
     height: 48px;
-    float: right;
-    margin-right: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-div.container {
-    margin: 7em 0.5em;
-}
-
-#login {
-    border: solid thin #000000;
-    border-radius: 0.5em;
-    -moz-border-radius: 0.5em;
-    -webkit-border-radius: 0.5em;
-    padding: 0.5em;
-}
-
-#login input {
-    width: 97%;
-    margin: 0.5em 0;
-    padding-left: 0.5em;
-    height: 2em;
-}
-
-#login input[type=Submit] {
-    width: 100%;
-}
-
-footer.main {
-    width: 100%;
+.navbar-fixed-bottom {
     text-align: center;
     position: fixed;
     bottom: 0;
-    z-index: 999999;
 }
 
-footer .wrap {
-    position: relative;
-    margin: 0 auto;
-    width: 101%;
-    height: 1.7em;
+.navbar li {
+    text-align: center;
 }
 
-footer.main h2 {
-    color: white;
-    background-color: black;
-    margin: 0;
+#tiddler-definition {
+    border-image: url(http://tiddlyspace.com/note.png) 20 40 30 40 stretch;
+    -webkit-border-image: url(http://tiddlyspace.com/note.png) 20 40 30 40 stretch;
+    -moz-border-image: url(http://tiddlyspace.com/note.png) 20 40 30 40 stretch;
+    border-width: 20px 40px 30px 40px;
+    width: 200px;
+    float: right;
+    font-family: Georgia;
+    font-size: 1em;
+    line-height: 1;
+}
+
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -moz-margin-before: 1em;
+    -moz-margin-after: 1em;
+    -moz-margin-start: 0;
+    -moz-margin-end: 0;
+}
+
+dl dt {
+    font-size: 2em;
+    line-height: 1em;
+    margin: 0.5em 0 0;
+}
+
+#tiddler-definition dl dd:first-of-type {
+    font-style: italic;
+    color: #FD5B40;
+    color: #DA4E37;
+    font-size: 0.95em;
+}
+#tiddler-definition dl dd {
+    line-height: 1.5em;
+}
+
+#tiddler-definition dl dd.tiddler-definitions {
+    margin: 1em 0 1em 1.5em;
 }
